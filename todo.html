@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My TODO LIST</title>
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <div class="loader-con js-loader-con">
+      <div class="loader"></div>
+      <p>Loading...</p>
+    </div>
+
+    <div class="container">
+       <header>
+        <h1>My Todo List</h1>
+        <p>Stay organized. Get things done</p>
+       </header>
+
+       <span class="qua js-qua"></span>
+
+       <main>
+        <section class="first-section">
+          <input type="text" placeholder="Enter an activity" class="f-input js-f-input" maxlength="70">
+          <input type="date" class="d-input js-d-input">
+          <button class="btn1 js-btn1">Add Task</button>
+        </section>
+
+        <section class="second-section">
+          <h2>Your Tasks</h2>
+
+          <nav>
+            <a href="completed.html">Completed</a>
+          </nav>
+        </section>
+
+        <section class="third-section js-third-section"></section>
+       </main>
+    </div>
+
+    <script src="todo.js" type="module"></script>
+  </body>
+</html>
